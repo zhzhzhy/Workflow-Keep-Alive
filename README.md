@@ -1,9 +1,9 @@
 # Workflow-Keep-Alive
-A Github action to keep Another repo workflow alive
+**A Github action to keep Another repo workflow alive**
 
 1. Fork this repository
 2. Create some sercets in your repository(Settings -> Secrets)
-	- REST_TOKEN 
-	- API_ADDRESS 
+	- REST_TOKEN: Create a token with the permission write:packages in the access token, and then use the value of this token to create a sercet named REST_TOKEN in your repo
+	- API_ADDRESS: See Docs in [https://docs.github.com/cn/rest/reference/actions#enable-a-workflow](https://docs.github.com/cn/rest/reference/actions#enable-a-workflow)
 
 
