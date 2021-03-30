@@ -32,4 +32,6 @@ jobs:
         REST_TOKEN: ${{ secrets.REST_TOKEN }}
         API_ADDRESS: ${{ secrets.API_ADDRESS }}
       run: |
+        echo "Enable $API_ADDRESS Start..."
         curl -X PUT -H "$REST_TOKEN" "$API_ADDRESS"
+        echo "Finished"
