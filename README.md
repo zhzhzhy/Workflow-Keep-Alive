@@ -1,7 +1,7 @@
 # Workflow-Keep-Alive
 **A Github action to keep Another Repo workflow alive**<br>
 
-Steps:
+### Steps:
 
 1. Fork this repository
 2. Create some sercets in your repository(Settings -> Secrets)
@@ -12,8 +12,8 @@ You can replace `workflow_id` with the workflow file name. For example, you coul
 See Docs in [https://docs.github.com/cn/rest/reference/actions#enable-a-workflow](https://docs.github.com/cn/rest/reference/actions#enable-a-workflow)
 3. Run github action again,check if the workflow in another repo is enabled.
 
-Notice: This workflow could be disabled by Github after 60 Days inactive.
-To wake up mutually,YOU MUST Do above steps in the target repo's workflow again,just add following Github Action after `step:`<br>
+<font color=red>Notice:</font> This workflow could be disabled by Github after 60 Days inactive.
+To wake up mutually,<font color=red>YOU MUST Do</font> above steps in the target repo's workflow again,just add following Github Action after `step:`<br>
 ```
     - name: curl
       id: enable_workflow
