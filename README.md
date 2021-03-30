@@ -1,5 +1,5 @@
 # Workflow-Keep-Alive
-**A Github action to keep Another Repo workflow alive**<br>
+**A Github action to keep Another Repo workflow alive after 60days inactive**<br>
 
 ### Steps:
 
