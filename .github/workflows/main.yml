@@ -33,5 +33,5 @@ jobs:
         API_ADDRESS: ${{ secrets.API_ADDRESS }}
       run: |
         echo "Enable Workflow Start..."
-        curl -X PUT -H "$REST_TOKEN" "$API_ADDRESS"
+        curl -X PUT -H "Authorization: token $REST_TOKEN" "$API_ADDRESS"
         echo "Finished"
