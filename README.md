@@ -13,7 +13,7 @@ See Docs in [https://docs.github.com/cn/rest/reference/actions#enable-a-workflow
 3. Run github action again,check if the workflow in another repo is enabled.
 
 **Notice:** This workflow could be disabled by Github after 60 Days inactive.
-**To wake up mutually,YOU MUST Do** above steps in the target repo's workflow again,just add following Github Action after `step:`<br>
+**To wake up mutually,YOU MUST Do** above steps in the target repo's workflow again,then add following Github Action after `step:`<br>
 ```
     - name: curl
       id: enable_workflow
