@@ -1,4 +1,6 @@
 # Workflow-Keep-Alive
+[![Run](https://github.com/zhzhzhy/Workflow-Keep-Alive/actions/workflows/main.yml/badge.svg)](https://github.com/zhzhzhy/Workflow-Keep-Alive/actions/workflows/main.yml)<br>
+
 **A Github action to keep Another Repo workflow alive after 60days inactive**<br>
 
 ### Steps:
